@@ -6,7 +6,6 @@ Coalition of International Students is an organization dedicated towards helping
 
 CIS is a student led organization that acts as a bridge to reflect the needs of international students to university administration. We aim to enhance international student experience, promote cultural diversity and inclusivity in ASU through events and service.
 
-
 ## Project Dependencies
 
 This project is built with:
@@ -35,8 +34,7 @@ This project is built with:
 
 ## Folder Structure
 
-    .
-    ├── .publish       
+    .       
     ├── _data               # YAML (.yml) files to support liquid templates 
     ├── _includes           # Folder for the broken up components
     ├── _layouts            # Default layout for page types

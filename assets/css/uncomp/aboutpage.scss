@@ -1,0 +1,31 @@
+header.abouthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/cis-glo-ball-night-0007.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.partner-table a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.partner-table a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.partner-table a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.partner-table a:active {
+    color: darkblue;
+    text-decoration: none;
+}

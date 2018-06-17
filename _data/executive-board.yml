@@ -1,0 +1,41 @@
+- role: President
+  name: Zhen Wang
+  img: wang.JPG
+  email: zwang325@asu.edu
+  linkedin: https://www.linkedin.com/in/zhen-wang-992723a0/
+  instagram: https://www.instagram.com/rockywang213/
+
+- role: Vice President
+  name: Che-jui Huang
+  img: haung.JPG
+  email: chuan110@asu.edu
+  linkedin: #
+  instagram: #
+
+- role: Treasurer
+  name: Carmel Mary Jose
+  img: jose.jpg
+  email: 
+  linkedin: 
+  instagram: 
+
+- role: Event Manager
+  name: Sirish Pabbi Setty
+  img: setty.jpg
+  email: 
+  linkedin: 
+  instagram: 
+
+- role: Marketing Manager
+  name: Ferra Suryani
+  img: suryani.JPG
+  email: 
+  linkedin: 
+  instagram: 
+
+- role: Advisor
+  name: Xin Zhou
+  img: zhou.JPG
+  email: Xin.Zhou.5@asu.edu
+  linkedin: https://www.linkedin.com/in/xin-zhou-45028727
+  instagram: 

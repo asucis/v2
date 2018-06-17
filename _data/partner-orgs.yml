@@ -1,0 +1,113 @@
+- name: African Students Association
+  url: https://www.facebook.com/AfsaASU/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Brazilian Club at ASU
+  url: https://www.facebook.com/brazilianclubatasu/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Bridge of Japan-America
+  url: https://www.facebook.com/JapanAmericaBridge/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Chinese Students and Scholars Association
+  url: scripts/cssa.html
+  type: WeChat
+  class: fab fa-weixin
+  color: 7bb32e
+
+- name: Ethiopian &amp; Eritrean Student Association
+  url: https://www.facebook.com/JapanAmericaBridge/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: German Devils/ASU German Club
+  url: https://www.facebook.com/groups/153188808057722/about/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Indian Students Association
+  url: https://www.facebook.com/isa.asu/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: International Business Scholars Association
+  url: https://ibsaasu.wixsite.com/ibsa
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Iranian Students Association
+  url: https://www.facebook.com/groups/55405745846/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Japanese Students Association
+  url: https://www.facebook.com/jsaatasu/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Korean Students Association
+  url: https://www.facebook.com/ksaasu/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Malaysian Student Association
+  url: https://www.facebook.com/ASUMySA/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Muslim Student's Association
+  url: https://www.facebook.com/asumsa/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Nepalese Students Association
+  url: https://www.facebook.com/Nepalese-Students-Association-at-Arizona-State-University-135246429689/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Omani Students Association
+  url: https://www.facebook.com/AfsaASU/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: PERMIAS - Indonesian Student Association
+  url: https://www.facebook.com/asupermias/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Saudi Students Club at ASU
+  url: https://www.facebook.com/SSCASU/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Taiwanese Student Association
+  url: https://www.facebook.com/ASUTaiwaneseStudentAssociation/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998
+
+- name: Vietnamese Student Union
+  url: https://www.facebook.com/asuvn/
+  type: Facebook
+  class: fab fa-facebook-square
+  color: 3b5998

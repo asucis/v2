@@ -1,0 +1,93 @@
+header.opthead
+  .overlay
+  .container
+    .row
+      .col-md-12
+        h1
+          span OPT Calculator
+        hr
+.container-even
+  .container
+    .row
+      .col-md-12
+        p
+          | F-1 students may be eligable for a 12-month employment authorization called Optional Practical Training (OPT). OPT opens up an opportunity for students on an F-1 visa to remain in status for an additional twelve months after graduating to gain practical experience in their field of study.
+        |                     Eligibility for OPT
+        ul
+          li Holding an F-1 visa
+          li Be in the final term of study and have applied for graduation
+          li Have used less than 12 months of full-time CPT
+      .col-md-12
+        .row
+          .col-md-4.opt-card
+            .card
+              .card-body
+                h4.card-title 60 Days
+                h6.card-subtitle.mb-2.text-muted Grace Period
+                p.card-text Time to depart the US, start a new academic program or change your status
+          .col-md-4.opt-card
+            .card
+              .card-body
+                h4.card-title 90 Days
+                h6.card-subtitle.mb-2.text-muted USCIS Processing Time
+                p.card-text Time before you graduate to process an OPT application
+          .col-md-4.opt-card
+            .card
+              .card-body
+                h4.card-title 10-14 Days*
+                h6.card-subtitle.mb-2.text-muted ISSC Processing Time
+                p.card-text Time is takes ISSC to process your OPT request. 
+                p.fine-print *business days
+      .col-md-12
+        .card
+          form.form-horizontal.title
+            a.nav-link.disabled.tablinks
+              | When are you graduating: 
+              input#graduationDatePicker.grad-date(type='')
+            .card-header
+              ul.nav.nav-tabs.card-header-tabs
+                li.nav-item
+                  a#defaultOpen.nav-link.active.tablinks(onclick="openCity(event, 'calendar-tab')") Calendar View
+                li.nav-item
+                  a.nav-link.tablinks(onclick="openCity(event, 'slider-tab')") Slider View
+            .card-body
+              form.form-horizontal.opt-form
+                .tab-content
+                  #slider-tab.tabcontent
+                    .row
+                      .col-md-12
+                        p Select your OPT start date
+                      .col-md-12.slider
+                        #slider
+                          #custom-handle.ui-slider-handle
+                      .col-md-6.left-box
+                        | Submit your application to ISSC by
+                        p#submitDate11
+                      .col-md-6.right-box
+                        | Your application must reach USCIS by
+                        p#submitDate12
+                  #calendar-tab.tabcontent
+                    .row
+                      .col-md-12
+                        center
+                          p Select your OPT start date
+                          #startDatePicker
+                      .col-md-6.left-box
+                        | Submit your application to ISSC by
+                        p#submitDate21
+                      .col-md-6.right-box
+                        | Your application must reach USCIS by
+                        p#submitDate22
+            .opt-credits
+              p
+                i.fas.fa-exclamation-circle(data-fa-transform='shrink-2', style='color:#757575')
+                |  Use this only as a reference. Actual dates may vary.
+              p
+                i.fas.fa-code(data-fa-transform='shrink-2', style='color:#FF5722')
+                |  by 
+                a(href='https://github.com/AravindSreenivasa') Aravind Sreenivasa
+      .col-md-12
+        a(href='https://issc.asu.edu/employment/students-fj/f-1-opt-12-month/post-opt', target='_blank')
+          button.btn.btn-outline-info.end-button(type='button')
+            | Learn more at ASU ISSC 
+            i.fas.fa-chevron-circle-right

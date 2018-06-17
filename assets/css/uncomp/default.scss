@@ -5,3 +5,98 @@ html {
     height: 100%;
     margin: 0;
 }
+
+header.abouthead .overlay,
+header.eventshead .overlay,
+header.executivehead .overlay,
+header.memberhead .overlay, 
+header.contacthead .overlay,
+header.opthead .overlay,
+header.surveyhead .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+    background: #667db6;
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}
+
+header.abouthead h1,
+header.eventshead h1,
+header.executivehead h1,
+header.memberhead h1, 
+header.contacthead h1,
+header.opthead h1,
+header.surveyhead h1 {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+header.abouthead h1 span,
+header.eventshead h1 span,
+header.executivehead h1 span,
+header.memberhead h1 span, 
+header.contacthead h1 span,
+header.opthead h1 span,
+header.surveyhead h1 span {
+    background-color: #BBDEFB;
+    color: #2196F3;
+    display: inline;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+header.abouthead hr,
+header.eventshead hr,
+header.executivehead hr,
+header.memberhead hr, 
+header.contacthead hr,
+header.opthead hr,
+header.surveyhead hr{
+    max-width: 800px;
+    margin-left: 0;
+    max-width: 100px;
+    border-width: 0.5em;
+    border-color: #FF5722;
+}
+
+@media (min-width: 768px) {
+    header.abouthead,
+    header.eventshead,
+    header.executivehead,
+    header.memberhead, 
+    header.contacthead,
+    header.opthead,
+    header.surveyhead {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    header.abouthead h1,
+    header.eventshead h1,
+    header.executivehead h1,
+    header.memberhead h1, 
+    header.contacthead h1,
+    header.opthead h1, 
+    header.surveyhead h1 {
+        font-size: 3rem;
+    }
+}
+
+#wechat {
+    background-color:forestgreen;
+}
+
+#qr {
+    margin: 5% 25% 1%;
+    width: 40%;
+    border: 3px solid #7bb32e;
+    padding: 10px;
+    max-width: 600px;
+}

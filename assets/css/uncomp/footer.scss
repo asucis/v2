@@ -1,148 +1,90 @@
-footer .wrapper {
-    display: grid;
-    width: 100%;
-    margin: auto;
+footer {
+    background-color: #2196F3;
 }
 
-footer .container {
-    justify-self: center;
+.footer-text {
+    padding: 3em 0em 1.5em 0em;
+    color: #BBDEFB;
 }
 
-footer .nested {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 1em;
-}
-
-footer .copyright .nested,
-footer .scroll-up .nested {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-footer .nested div {
-    justify-self: center !important;
-}
-
-.scroll-up {
-    margin: 0em 0em 2em;
-}
-
-.scroll-up a {
-    font-family: monospace;
-    font-size: 1em;
-    text-transform: uppercase;
-    color: $primary-color;
-}
-
-i.fas.fa-caret-square-up {
-    font-size: 0.8em;
-}
-
-footer a {
-    font-size: 1.5em;
+.footer-text a:link {
+    color: #BBDEFB;
     text-decoration: none;
 }
 
-footer .text a {
-    font-family: monospace;
-    text-transform: uppercase;
-    color: $text-icons;
-    font-size: 1em;
+.footer-text a:visited {
+    color: #BBDEFB;
+    text-decoration: none;
 }
 
-footer .icon a {
-    color: $text-icons;
-    font-size: 1.5em;
+.footer-text a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
-.email:hover {
-    color: $primary-color;
+.footer-text a:active {
+    color: #fff;
+    text-decoration: none;
 }
 
-.twitter:hover {
-    color: $twitter;
+.footer-social {
+    padding: 2em;
+    text-align: center;
 }
 
-.linkedin:hover {
-    color: $linkedin;
+.footer-social a {
+    padding: 0.2em;
 }
 
-.instagram:hover {
-    color: $instagram;
+.footer-social a:link {
+    color: #BBDEFB;
+    text-decoration: none;
 }
 
-.github:hover { 
-    color: $github;
+.footer-social a:visited {
+    color: #BBDEFB;
+    text-decoration: none;
 }
 
-.weixin:hover {
-    color: $weixin;
+.footer-social a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
-.copyright {
-    font-family: monospace;
-    text-transform: uppercase;
-    color: $text-icons;
-    margin: 2em 0em 3.8em;
+.footer-social a:active {
+    color: #fff;
+    text-decoration: none;
 }
 
-i.fas.fa-copyright {
-    color: $text-icons;
+.footer-copyright {
+    padding: 0.5em;
+    text-align: center;
+    background-color: #1976D2;
+}
+
+.copyright-text {
     font-size: 0.8em;
+    padding: 0em !important;
+    font-weight: 200;
+    color: #BBDEFB;
 }
 
-@media (min-width: 641px) {
-    span .email:hover {
-        text-decoration: none;
-        border-bottom: 3px $primary-color dotted;
-    }
-
-    span .twitter:hover {
-        text-decoration: none;
-        border-bottom: 3px $twitter dotted;
-    }
-    
-    span .linkedin:hover {
-        text-decoration: none;
-        border-bottom: 3px $linkedin dotted;
-    }
-    
-    span .instagram:hover {
-        text-decoration: none;
-        border-bottom: 3px $instagram dotted;
-    }
-    
-    span .github:hover {
-        text-decoration: none; 
-        border-bottom: 3px $github dotted;
-    }
-    
-    span .weixin:hover {
-        text-decoration: none;
-        border-bottom: 3px $weixin dotted;
-    }
-    
-    span.icon {
-        display:none
-    }
-
-    span.text {
-        display:inline-block
-    }
-
-    footer .wrapper {
-        display: grid;
-        margin: 0em 0em;
-    }
+.copyright-text a:link {
+    color: #BBDEFB;
+    text-decoration: none;
 }
 
-@media (max-width: 640px) {
-    span.icon {
-        display:inline-block;
-    }
+.copyright-text a:visited {
+    color: #BBDEFB;
+    text-decoration: none;
+}
 
-    span.text {
-        display:none;
-    }
+.copyright-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright-text a:active {
+    color: #fff;
+    text-decoration: none;
 }

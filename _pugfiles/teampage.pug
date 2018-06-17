@@ -1,0 +1,41 @@
+header.executivehead
+  .overlay
+  .container
+    .row
+      .col-md-12
+        h1
+          span Our Team
+        hr
+.container-even
+  .container
+    .row
+      .col-md-12.executive-subtitle
+        | Passionate. Innovative. Misfits
+      .col-md-12.executive-subtitle-muted
+        p
+          center
+            | These attributes describe every member of the CIS family and we value them above all else.
+      .col-md-12
+        img.img-fluid.stacked-img(src='assets/cis-international-night-0014.JPG')
+.container-odd
+  .container
+    .row
+      .col-md-12.nested-title
+        p officers
+      | {% for eb in site.data.executive-board %}
+      .col-md-6
+        .row
+          .col-md-4.picture-box
+            img.portrait(src='assets/officers/{{ eb.img }}')
+          .col-md-8.name-box.executive-social
+            h5 {{ eb.name }}
+            p
+              | {{ eb.role }}
+              br
+              a.icons-sm.tw-ic(target='_blank', href='mailto:{{ eb.email }}')
+                i.fas.fa-envelope-square.white-text.fa-lg
+              a.icons-sm.tw-ic(target='_blank', href='{{ eb.linkedin }}')
+                i.fab.fa-linkedin.white-text.fa-lg
+              a.icons-sm.tw-ic(target='_blank', href='{{ eb.instagram }}')
+                i.fab.fa-instagram.white-text.fa-lg
+      | {% endfor %}

@@ -1,0 +1,102 @@
+.hero-bg {
+    opacity: 0.75;
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/cis-international-night-0011.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+}
+
+.hero-bg h1 {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+hero-bg h1 span {
+    background-color: #1976D2;
+    color: #BBDEFB;
+    display: inline;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.banner {
+    padding: 20px;
+    color: #f8f8f8;
+    background: url(../images/material.png) no-repeat center center;
+    background-size: cover;
+}
+
+.cis-passport {
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.mission p {
+    font-size: 1.2em;
+    font-weight: 200;
+    color: #212121;
+    font-style: italic;
+}
+
+.welcome p {
+    color: #212121;
+    font-weight: 200;
+    font-size: 1.1em;
+}
+
+.welcome h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.hero-image {
+    padding: 1em 1em 1em;
+}
+
+.stacked-img {
+    padding: 0em 0em 1em;
+}
+
+.portrait {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .portrait {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .executive-social {
+        text-align: center;
+    }
+}
+
+.banner .col-md-8 {
+    padding: 0.5em 0em 0.5em;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 2em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}

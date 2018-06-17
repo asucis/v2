@@ -1,0 +1,125 @@
+header.abouthead
+  .overlay
+  .container
+    .row
+      .col-md-12
+        h1
+          span About
+        hr
+.container-even
+  .container
+    .row
+      .col-md-7.event-text
+        h3 Shaping international culture at ASU
+        p
+          | Coalition of International Students or CIS is one of the 7 identity/cultural based coalitions at Arizona State University that forms the Council of Coalitions. Within CIS is 19 partner organizations registered within Arizona State University as members of cultural, identity-based and/or diversity based student organizations.
+          br
+      .col-md-5
+        img.img-fluid(src='assets/cis-glo-ball-night-0006.JPG')
+.container-odd
+  .container
+    .row
+      .col-md-12.nested-title
+        p our audience
+      .col-md-4.numbers-text
+        h2 CIS serves individuals from all parts of the world.
+      .col-md-8
+        .row
+          .col-md-6.numbers
+            h1 6000+
+            p people reached across our events throughout the academic year
+          .col-md-6.numbers
+            h1 40+
+            p dedicated students leaders in our team helping daily operations
+          .col-md-6.numbers
+            h1 19
+            p partner organizations consisting of identity/cultural orgs
+          .col-md-6.numbers
+            h1 3
+            p signature events throughout the academic year
+.container-even
+  .container
+    .row
+      .col-md-12.nested-title
+        p our events
+      .col-md-12
+        p
+          | Throughout the academic year, we as a coalition hold several events to not only promote our presence on campus but to provide international students with the opportunity to interact with other students and make ASU their home.
+      .col-md-4
+        img.img-fluid(src='assets/cis-international-night-0013.JPG')
+      .col-md-4
+        img.img-fluid(src='assets/cis-glo-ball-night-0009.JPG')
+      .col-md-4
+        img.img-fluid(src='assets/cis-international-night-0012.JPG')
+      .col-md-3
+        .row
+          .col-md-12.event-name
+            h2 International
+            h2
+              b Night
+          .col-md-12.event-descrip
+            p
+              | our biggest event is also asu's most cultural event promoting understanding between different cultures. takes place every november.
+            a.btn.btn-outline-dark.btn-sm(href='events.html#in') Learn more
+      .col-md-3
+        .row
+          .col-md-12.event-name
+            h2 Glo-Ball
+            h2
+              b Night
+          .col-md-12.event-descrip
+            p
+              | our closing event for each academic year to celebrate the success of the outgoing year. also celebrating the partnerships of our partners.
+            a.btn.btn-outline-dark.btn-sm(href='events.html#gbn') Learn more
+      .col-md-3
+        .row
+          .col-md-12.event-name
+            h2 Career
+            h2
+              b Conference
+          .col-md-12.event-descrip
+            p
+              | a platform specifically tailored for international students to gain valuable information before the hiring season takes full blow.
+            a.btn.btn-outline-dark.btn-sm(href='events.html#cc') Learn more
+      .col-md-3
+        .row
+          .col-md-12.event-name
+            h2 Welcome
+            h2
+              b Carnival
+          .col-md-12.event-descrip
+            p
+              | an introductory event targeted towards new international students to welcome them to the asu community.
+            a.btn.btn-outline-dark.btn-sm(href='events.html#wc') Learn more
+.container-odd
+  .container
+    .row
+      .col-md-12.nested-title
+        p our partners
+      .col-md-12
+        p
+          | Everything we do would not be possible without the support of our partner organizations. Interested in being part of our network? 
+          a(href='contact.html') Contact us
+          |  for more information
+      .col-md-12
+        table.table.table-bordered.table-hover.table-condensed.partner-table
+          tbody
+            | {% for partner in site.data.partner-orgs %}
+            tr
+              td {{ partner.name }}
+              td
+                center
+                  a(href='{{ partner.url }}', target='_blank')
+                    i(class='{{ partner.class }}')(style='color:{{ partner.color }}')
+                    |  {{ partner.type }}
+            | {% endfor %}
+.container-even
+  .container
+    .row
+      .col-md-12.nested-title
+        p our team
+      .col-md-12
+        p
+          | all of this would not be possible without the amazing support from our rising students leaders that chose to dedicate their time to CIS.
+        center
+          a.btn.btn-outline-primary.btn-sm(href='team.html') Learn More

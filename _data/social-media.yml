@@ -1,0 +1,19 @@
+- name: Facebook
+  url: https://www.facebook.com/ASUCIS/
+  class: fab fa-facebook fa-2x white-text mr-md-4  
+
+- name: Instagram
+  url: https://www.instagram.com/asucis/
+  class: fab fa-instagram fa-2x white-text mr-md-4  
+
+- name: Twitter
+  url: https://twitter.com/asu_cis
+  class: fab fa-twitter fa-2x white-text mr-md-4  
+
+- name: Snapchat
+  url: https://www.snapchat.com/add/asucis
+  class: fab fa-snapchat fa-2x white-text mr-md-4  
+
+- name: WeChat
+  url: scripts/weixin.html
+  class: fab fa-weixin fa-2x white-text mr-md-4  

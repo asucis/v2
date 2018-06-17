@@ -1,14 +1,13 @@
 # Site settings
 year: 2018
-name: Dick Wyn Yong
-title: Dick Wyn Yong | Student, Blogger, Designer
+name: ASU CIS
+title: CIS Home
 description: Awesome description
-url: https://dickwyn.xyz
+url: https://asucis.com
 baseurl: ""
-email: dickwyn@outlook.com
-cover: https://www.dickwyn.xyz/img/dickwyn-pc.jpg
-logo: https://www.dickwyn.xyz/assets/images/dickwyn-emblem.png
-resume: https://www.dropbox.com/s/l4e85oz3jflg9fl/resume-dick-wyn-yong.pdf?dl=0
+email: international.students@asu.edu
+cover: 
+logo: assets/images/favicon.png
 
 # Build settings
 markdown: redcarpet
