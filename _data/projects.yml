@@ -1,0 +1,105 @@
+- name: LaTeX Resume
+  description: A LaTeX template for my resume that I use for job applications.
+  url: https://github.com/dickwyn/resume
+  repo: 
+  tech:
+    - item: LaTeX
+  class: far fa-file-code
+
+- name: SafeDevils
+  description: A simple safety web app with ExpressJS that uses the SafeTrek API to invoke emergency services when the alert button is triggered. The app aims to increase awareness of personal safety on campus.
+  url: http://testorangesafe.dickwyn.xyz/
+  repo:
+  tech:
+    - item: Node.js
+    - item: Express.js
+    - item: Pug.js
+    - item: SCSS
+  class: far fa-file-code
+
+- name: SFLE Knowledgebase
+  description: An interactive web application where users can filter and explore solutions pertaining to local food economies. Also built a scalable database using MySQL to store data from researchers.
+  url:
+  repo:
+  tech:
+    - item: MySQL
+    - item: Axure RP
+    - item: Node.js
+  class: far fa-file-code
+
+- name: Personal Website
+  description: My personal portfolio website.
+  url: https://github.com/dickwyn/dickwyn
+  repo: 
+  tech:
+    - item: Node.js
+    - item: Jekyll
+    - item: Pug.js
+  class: far fa-file-code
+
+- name: 2018 International Student Survey
+  description: A comprehensive survey to indentify the needs and concerns of 10,000+ international students on campus. The analyzed survey data was used for decision making with university administration. Also worked on increasing the awareness of the ASU's Coalition of International Students in relation to the function of the coalition within the university community.
+  url:
+  repo: 
+  tech:
+    - item: Microsoft Excel
+  class:
+
+- name: ASU CIS Website
+  description: An informational website for the ASU;s Coalition of International Students. The website features an Optional Practical Training (OPT) calculator that helps students find the optimal time to send in their documents for OPT.
+  url: https://asucis.com/
+  repo: https://github.com/dickwyn/cis
+  tech:
+    - item: Bootstrap
+    - item: CSS
+    - item: HTML
+    - item: jQuery
+  class: fas fa-globe
+
+- name: ReverseShop
+  description: An online marketplace built with WordPress and WooCommerce for my entrepreneurship course at Arizona State. Our team created this marketplace to solve a recurring problem that students have when they sell their stuff after graduation. Our solution is a unique price drop formula to help sellers with a deadline sell fast and for buyers to score some great deals.
+  url:
+  repo: 
+  tech:
+    - item: WordPress
+    - item: WooCommerce
+    - item: php
+  class:
+
+- name: Sound Waves
+  description: A side-scrolling mobile game for SOUNDS Academy to help underprivileged students practice string instruments. The game features a scoring system, game streams and a customizable theme. 🏆 Won EPICS Catalyst Award from Ira A. Fulton Schools of Engineering.
+  url:
+  repo: 
+  tech:
+    - item: Proto.io
+    - item: Swift
+  class: fas fa-file-powerpoint
+
+- name: International Night 2016 Promo Video
+  description: Directed and produced 12 short videos (approx 2 minutes long) with various student organizations at ASU to promote International Night which is the school's biggest cultural event.
+  url: https://www.facebook.com/pg/ASUCIS/videos/
+  repo: 
+  tech: 
+    - item: Premiere Pro
+  class: fas fa-video
+
+- name: Sunway ADTP
+  description: A concept website for the American Degree Transfer Program at Sunway University built with the Bootstrap framework.
+  url: https://testorange-adtp.dickwyn.xyz/
+  repo: https://github.com/dickwyn/testorange-adtp
+  tech:
+    - item: Bootstrap
+    - item: CSS
+    - item: HTML
+    - item: JavaScript
+  class: fas fa-globe
+
+- name: OneLap
+  description: Competed in the Freescale Cup 2015 Malaysia finals with a model race comprised of a FRDM-KL25Z board, a line scan camera and a servo. Implemented an autonomous navigation algorithm in C that aligned the vehicle to the center of two white lines. 
+  url: https://github.com/dickwyn/OneLap
+  repo: 
+  tech:
+    - item: C
+    - item: Tcl
+    - item: Kinetis Microcontroller
+  class: far fa-file-code

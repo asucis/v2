@@ -1,0 +1,848 @@
+.navbar a.navbar-brand:hover {
+    color: #00A3E0 !important;
+    text-decoration: none;
+}
+
+.social a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.social a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.social a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+.logo-hero {
+    margin: 1em;
+    width: 20%;
+}
+
+hr {
+    max-width: 100px;
+    margin: auto;
+    border-width: 0.25em;
+    border-color: rgba(34, 34, 34, 0.1);
+}
+
+.hero-bg {
+    opacity: 0.75;
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/cis-international-night-0011.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+}
+
+.executive-social a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+.executive-social a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.executive-social a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.executive-social a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2196F3;
+}
+
+.footer-text {
+    padding: 3em 0em 1.5em 0em;
+    color: #BBDEFB;
+}
+
+.footer-text a:link {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.footer-text a:visited {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-text a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signature-event {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.event-block {
+    padding-bottom: 1em;
+    padding-right: 0.5em;
+}
+
+.title-block {
+    padding-bottom: 2em;
+}
+
+.signature-section {
+    background-color: red;
+}
+
+.container-signature {
+    background-color: ghostwhite;
+    padding: 2em;
+}
+
+.title-block h2 {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2em;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.title-block p {
+    text-align: center;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.social-bar {
+    background-color: #BBDEFB
+}
+
+.title-page h2 {
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.logo-center {
+    width: 20%;
+}
+
+.container-about {
+    padding: 2em 0em 2em 0em;
+}
+
+.executive-subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.numbers h1 {
+    color: #1976D2;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 60px;
+}
+
+.numbers {
+    padding: 0em 3.5em;
+}
+
+.numbers p {
+    color: #2196F3;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.numbers-text h2 {
+    padding: 0.8em;
+    color: #111;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.in-numbers {
+    padding: 0em 1.3em;
+}
+
+.in-numbers p {
+    color: #2196F3;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    font-size: 18px;
+}
+
+.in-numbers h1 {
+    color: #1976D2;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.event-name {
+    padding: 0.38em;
+    color: #111;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.executive-subtitle-muted {
+    text-transform: lowercase;
+    color: gray;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.picture-box {
+    padding: 0.35em;
+    color: #111;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.name-box h5 {
+    text-transform: uppercase;
+    padding-top: 0.38em;
+    color: #111;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+}
+
+.event-title {
+    padding: 0em;
+}
+
+.event-title p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 23px;
+}
+
+.nested-title {
+    padding: 0em 0em 1em;
+}
+
+.nested-title p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+.container-even {
+    padding: 2em 0em 2em 0em;
+}
+
+.container-odd {
+    padding: 2em 0em 2em 0em;
+    background-color: #fafafa;
+}
+
+.event-text {
+    padding: 0em 2em 1em;
+}
+
+.event-text img {
+    padding: 0em 0em 2em;
+}
+
+.event-text p {
+    color: #212121;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.cc-event img {
+    padding: 0em 0em 0em;
+    width: 100%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+
+.container-contact {
+    height: 1000px;
+}
+
+header.abouthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/cis-glo-ball-night-0007.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.eventshead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/cis-international-night-0010.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.executivehead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/cis-glo-ball-night-0008.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.memberhead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/cis-glo-ball-night-0008.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.contacthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/sun-devil-map.jpeg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.opthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/grad.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.surveyhead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/low-poly.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.abouthead .overlay,
+header.eventshead .overlay,
+header.executivehead .overlay,
+header.memberhead .overlay, 
+header.contacthead .overlay,
+header.opthead .overlay,
+header.surveyhead .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+    background: #667db6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header.abouthead h1,
+header.eventshead h1,
+header.executivehead h1,
+header.memberhead h1, 
+header.contacthead h1,
+header.opthead h1,
+header.surveyhead h1 {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+header.abouthead h1 span,
+header.eventshead h1 span,
+header.executivehead h1 span,
+header.memberhead h1 span, 
+header.contacthead h1 span,
+header.opthead h1 span,
+header.surveyhead h1 span {
+    background-color: #BBDEFB;
+    color: #2196F3;
+    display: inline;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+header.abouthead hr,
+header.eventshead hr,
+header.executivehead hr,
+header.memberhead hr, 
+header.contacthead hr,
+header.opthead hr,
+header.surveyhead hr{
+    max-width: 800px;
+    margin-left: 0;
+    max-width: 100px;
+    border-width: 0.5em;
+    border-color: #FF5722;
+}
+
+@media (min-width: 768px) {
+    header.abouthead,
+    header.eventshead,
+    header.executivehead,
+    header.memberhead, 
+    header.contacthead,
+    header.opthead,
+    header.surveyhead {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+    header.abouthead h1,
+    header.eventshead h1,
+    header.executivehead h1,
+    header.memberhead h1, 
+    header.contacthead h1,
+    header.opthead h1, 
+    header.surveyhead h1 {
+        font-size: 3rem;
+    }
+}
+
+#wechat {
+    background-color:forestgreen;
+}
+
+#qr {
+    margin: 5% 25% 1%;
+    width: 40%;
+    border: 3px solid #7bb32e;
+    padding: 10px;
+    max-width: 600px;
+}
+
+.partner-table a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.partner-table a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.partner-table a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.partner-table a:active {
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+.hero-bg h1 {
+    text-align: left;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+hero-bg h1 span {
+    background-color: #1976D2;
+    color: #BBDEFB;
+    display: inline;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+.footer-social {
+    padding: 2em;
+    text-align: center;
+}
+
+.footer-social a {
+    padding: 0.2em;
+}
+
+.footer-social a:link {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.footer-social a:visited {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    padding: 0.5em;
+    text-align: center;
+    background-color: #1976D2;
+}
+
+.copyright-text {
+    font-size: 0.8em;
+    padding: 0em !important;
+    font-weight: 200;
+    color: #BBDEFB;
+}
+
+.copyright-text a:link {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.copyright-text a:visited {
+    color: #BBDEFB;
+    text-decoration: none;
+}
+
+.copyright-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright-text a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cis-passport {
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.mission p {
+    font-size: 1.2em;
+    font-weight: 200;
+    color: #212121;
+    font-style: italic;
+}
+
+.welcome p {
+    color: #212121;
+    font-weight: 200;
+    font-size: 1.1em;
+}
+
+.welcome h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.hero-image {
+    padding: 1em 1em 1em;
+}
+
+.stacked-img {
+    padding: 0em 0em 1em;
+}
+
+.portrait {
+    width: 100%; 
+}
+
+@media only screen and (max-width: 768px) {
+    .portrait {
+        display: block;
+        margin: 0 auto;
+        width: 50%; 
+    }
+    .executive-social {
+        text-align: center;
+    }
+}
+
+.opt-form {
+    min-height: 600px;
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0.8em 0em 0em;
+}
+
+.opt-card {
+    padding: 0em 1em 1em;
+}
+
+
+
+#contents {
+    margin-left: 1%;
+    margin-right: 1%;
+    overflow: hidden;
+}
+
+#tabs {
+    height: 20em;
+    overflow: hidden;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+#accountForm {
+    margin-top: 15px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    height: 500px;;
+}
+
+#slider {
+    color: blue;
+    background-color: skyblue;
+}
+
+.slider {
+    padding: 1em 5.5em 1em 5.5em;
+}
+
+.grad-date {
+    font-size: 15px;
+    text-align: center;
+    height: 20px;
+    width: 100px;
+}
+.left-box {
+    font-size: 15px;
+    padding: 2em 0em 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.left-box p {
+    padding: 0em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.right-box {
+    font-size: 15px;
+    padding: 2em 0em 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.right-box p {
+    padding: 0em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.opt-credits {
+    padding: 1em 0em 0em;
+    text-align: center;
+    font-weight: 100;
+}
+
+.opt-credits i.fa-exclamation-circle {
+    color: red;
+    background-color:red;
+}
+
+.fine-print {
+    font-size: 10px;
+    margin: 0em;
+    color: #BDBDBD;
+}
+
+.end-button {
+    margin: 1em 0em 0em;
+    float: right
+}
+
+.banner {
+    padding: 20px;
+    color: #f8f8f8;
+    background: url(../images/material.png) no-repeat center center;
+    background-size: cover;
+}
+
+.banner .col-md-8 {
+    padding: 0.5em 0em 0.5em;
+}
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 2em;
+}
+.banner ul {
+    margin-bottom: 0;
+}
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+.alert-padding {
+    margin: 0em;
+}
+
+.faq {
+    max-width: 100%;
+    border-width: 0.1em;
+    border-color: #BDBDBD;
+    padding: 0em 0em 1em;
+}
+
+.faq-text h5 {
+    font-weight: 400;
+}
+
+.faq-text p {
+    margin-left: 40px;
+    font-weight: 100;
+}
+
+.nav-item p {
+    padding: 0em;
+    margin: 0em;
+}
+
+@media only screen and (max-width: 991px)  {
+    .nav-item p {
+        padding: 0em;
+        margin: 0em;
+        text-transform: capitalize;
+    }
+}
