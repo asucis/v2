@@ -89,6 +89,42 @@ header.surveyhead hr{
     }
 }
 
+.container-even {
+    padding: 2em 0em 2em 0em;
+}
+
+.container-odd {
+    padding: 2em 0em 2em 0em;
+    background-color: $text-icons-alt;
+}
+
+.nested-title {
+    padding: 0em 0em 1em;
+}
+
+.nested-title p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 28px;
+}
+
+.event-text {
+    padding: 0em 2em 1em;
+}
+
+.event-text img {
+    padding: 0em 0em 2em;
+}
+
+.event-text p {
+    color: #212121;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
 #wechat {
     background-color:forestgreen;
 }

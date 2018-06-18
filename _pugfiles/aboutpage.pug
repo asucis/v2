@@ -12,10 +12,10 @@ header.abouthead
       .col-md-7.event-text
         h3 Shaping international culture at ASU
         p
-          | Coalition of International Students or CIS is one of the 7 identity/cultural based coalitions at Arizona State University that forms the Council of Coalitions. Within CIS is 19 partner organizations registered within Arizona State University as members of cultural, identity-based and/or diversity based student organizations.
+          | {{ site.long-description }}
           br
       .col-md-5
-        img.img-fluid(src='assets/cis-glo-ball-night-0006.JPG')
+        img.img-fluid(src='assets/images/cis-glo-ball-night-0006.JPG')
 .container-odd
   .container
     .row
@@ -46,11 +46,11 @@ header.abouthead
         p
           | Throughout the academic year, we as a coalition hold several events to not only promote our presence on campus but to provide international students with the opportunity to interact with other students and make ASU their home.
       .col-md-4
-        img.img-fluid(src='assets/cis-international-night-0013.JPG')
+        img.img-fluid(src='assets/images/cis-international-night-0013.JPG')
       .col-md-4
-        img.img-fluid(src='assets/cis-glo-ball-night-0009.JPG')
+        img.img-fluid(src='assets/images/cis-glo-ball-night-0009.JPG')
       .col-md-4
-        img.img-fluid(src='assets/cis-international-night-0012.JPG')
+        img.img-fluid(src='assets/images/cis-international-night-0012.JPG')
       .col-md-3
         .row
           .col-md-12.event-name
@@ -59,7 +59,7 @@ header.abouthead
               b Night
           .col-md-12.event-descrip
             p
-              | our biggest event is also asu's most cultural event promoting understanding between different cultures. takes place every november.
+              | {{ site.data.events.in.short-description }}
             a.btn.btn-outline-dark.btn-sm(href='events.html#in') Learn more
       .col-md-3
         .row
@@ -69,7 +69,7 @@ header.abouthead
               b Night
           .col-md-12.event-descrip
             p
-              | our closing event for each academic year to celebrate the success of the outgoing year. also celebrating the partnerships of our partners.
+              | {{ site.data.events.gbn.short-description }}
             a.btn.btn-outline-dark.btn-sm(href='events.html#gbn') Learn more
       .col-md-3
         .row
@@ -79,7 +79,7 @@ header.abouthead
               b Conference
           .col-md-12.event-descrip
             p
-              | a platform specifically tailored for international students to gain valuable information before the hiring season takes full blow.
+              | {{ site.data.events.cc.short-description }}
             a.btn.btn-outline-dark.btn-sm(href='events.html#cc') Learn more
       .col-md-3
         .row
@@ -89,7 +89,7 @@ header.abouthead
               b Carnival
           .col-md-12.event-descrip
             p
-              | an introductory event targeted towards new international students to welcome them to the asu community.
+              | {{ site.data.events.wc.short-description }}
             a.btn.btn-outline-dark.btn-sm(href='events.html#wc') Learn more
 .container-odd
   .container

@@ -1,7 +1,7 @@
 .hero-bg {
     opacity: 0.75;
     position: relative;
-    background-color: #343a40;
+    background-color: $secondary-text;
     background: url("../images/cis-international-night-0011.JPG") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,43 +11,68 @@
     padding-bottom: 16rem;
 }
 
-.hero-bg h1 {
-    text-align: left;
-    font-size: 3em;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
-hero-bg h1 span {
-    background-color: #1976D2;
-    color: #BBDEFB;
-    display: inline;
-    padding: 0.5rem;
-    -webkit-box-decoration-break: clone;
-    box-decoration-break: clone;
-}
-
 .banner {
     padding: 20px;
-    color: #f8f8f8;
+    color: $text-icons;
     background: url(../images/material.png) no-repeat center center;
     background-size: cover;
 }
 
-.cis-passport {
-    width: 100%;
-    padding-bottom: 1em;
+.banner .col-md-8 {
+    padding: 0.5em 0em 0.5em;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 2em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.logo-hero {
+    margin: 1em;
+    width: 20%;
+}
+
+hr {
+    max-width: 100px;
+    margin: auto;
+    border-width: 0.25em;
+    border-color: rgba(34, 34, 34, 0.1);
+}
+
+.mission{
+    padding-bottom: 2em;
+}
+
+.mission h2 {
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2em;
+    color: $primary-text;
+    text-transform: uppercase;
 }
 
 .mission p {
     font-size: 1.2em;
     font-weight: 200;
-    color: #212121;
+    color: $primary-text;
     font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .welcome p {
-    color: #212121;
+    color: $primary-text;
     font-weight: 200;
     font-size: 1.1em;
 }
@@ -82,21 +107,12 @@ hero-bg h1 span {
     }
 }
 
-.banner .col-md-8 {
-    padding: 0.5em 0em 0.5em;
+.cis-passport {
+    width: 100%;
+    padding-bottom: 1em;
 }
 
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 2em;
-}
-
-.banner ul {
-    margin-bottom: 0;
-}
-
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
+.event-block {
+    padding-bottom: 1em;
+    padding-right: 0.5em;
 }

@@ -1,0 +1,17 @@
+.navbar a.navbar-brand:hover {
+    color: #00A3E0 !important;
+    text-decoration: none;
+}
+
+.nav-item p {
+    padding: 0em;
+    margin: 0em;
+}
+
+@media only screen and (max-width: 991px)  {
+    .nav-item p {
+        padding: 0em;
+        margin: 0em;
+        text-transform: capitalize;
+    }
+}

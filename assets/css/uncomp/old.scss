@@ -1,8 +1,3 @@
-.navbar a.navbar-brand:hover {
-    color: #00A3E0 !important;
-    text-decoration: none;
-}
-
 .social a:link {
     color: black;
     text-decoration: none;
@@ -23,41 +18,6 @@
     text-decoration: none;
 }
 
-.logo-hero {
-    margin: 1em;
-    width: 20%;
-}
-
-hr {
-    max-width: 100px;
-    margin: auto;
-    border-width: 0.25em;
-    border-color: rgba(34, 34, 34, 0.1);
-}
-
-
-
-.executive-social a:link {
-    color: gray;
-    text-decoration: none;
-}
-
-.executive-social a:visited {
-    color: gray;
-    text-decoration: none;
-}
-
-.executive-social a:hover {
-    color: gray;
-    text-decoration: none;
-}
-
-.executive-social a:active {
-    color: gray;
-    text-decoration: none;
-}
-
-
 
 .signature-event {
     width: 100%;
@@ -65,14 +25,6 @@ hr {
     margin: 0 auto;
 }
 
-.event-block {
-    padding-bottom: 1em;
-    padding-right: 0.5em;
-}
-
-.title-block {
-    padding-bottom: 2em;
-}
 
 .signature-section {
     background-color: red;
@@ -81,21 +33,6 @@ hr {
 .container-signature {
     background-color: ghostwhite;
     padding: 2em;
-}
-
-.title-block h2 {
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 2em;
-    color: #212121;
-    text-transform: uppercase;
-}
-
-.title-block p {
-    text-align: center;
-    letter-spacing: 1px;
-    color: gray;
 }
 
 .social-bar {
@@ -117,87 +54,11 @@ hr {
     padding: 2em 0em 2em 0em;
 }
 
-.executive-subtitle {
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 3px;
-    font-size: 30px;
-}
 
-.numbers h1 {
-    color: #1976D2;
-    font-weight: 700;
-    letter-spacing: 2px;
-    font-size: 60px;
-}
 
-.numbers {
-    padding: 0em 3.5em;
-}
 
-.numbers p {
-    color: #2196F3;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 18px;
-}
 
-.numbers-text h2 {
-    padding: 0.8em;
-    color: #111;
-    font-weight: 700;
-    font-size: 45px;
-}
 
-.in-numbers {
-    padding: 0em 1.3em;
-}
-
-.in-numbers p {
-    color: #2196F3;
-    font-weight: 400;
-    letter-spacing: 1.8px;
-    font-size: 18px;
-}
-
-.in-numbers h1 {
-    color: #1976D2;
-    font-weight: 700;
-    font-size: 45px;
-}
-
-.event-name {
-    padding: 0.38em;
-    color: #111;
-    font-weight: 700;
-    font-size: 45px;
-}
-
-.executive-subtitle-muted {
-    text-transform: lowercase;
-    color: gray;
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 3px;
-    font-size: 14px;
-}
-
-.picture-box {
-    padding: 0.35em;
-    color: #111;
-    font-weight: 700;
-    font-size: 45px;
-}
-
-.name-box h5 {
-    text-transform: uppercase;
-    padding-top: 0.38em;
-    color: #111;
-    font-weight: 700;
-    font-size: 28px;
-    letter-spacing: 1.5px;
-}
 
 .event-title {
     padding: 0em;
@@ -211,46 +72,6 @@ hr {
     font-size: 23px;
 }
 
-.nested-title {
-    padding: 0em 0em 1em;
-}
-
-.nested-title p {
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 28px;
-}
-
-.container-even {
-    padding: 2em 0em 2em 0em;
-}
-
-.container-odd {
-    padding: 2em 0em 2em 0em;
-    background-color: #fafafa;
-}
-
-.event-text {
-    padding: 0em 2em 1em;
-}
-
-.event-text img {
-    padding: 0em 0em 2em;
-}
-
-.event-text p {
-    color: #212121;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-size: 20px;
-}
-
-.cc-event img {
-    padding: 0em 0em 0em;
-    width: 100%;
-}
 
 /* Style inputs with type="text", select elements and textareas */
 
@@ -293,9 +114,7 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 
-.container-contact {
-    height: 1000px;
-}
+
 
 header.surveyhead {
     position: relative;
@@ -329,15 +148,3 @@ header.surveyhead {
     font-weight: 100;
 }
 
-.nav-item p {
-    padding: 0em;
-    margin: 0em;
-}
-
-@media only screen and (max-width: 991px)  {
-    .nav-item p {
-        padding: 0em;
-        margin: 0em;
-        text-transform: capitalize;
-    }
-}

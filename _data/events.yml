@@ -1,0 +1,31 @@
+in:
+  name: International Night
+  eli7: Our flagship event of the Fall semester to highlight and celebrate international students on campus.
+  short-description: our biggest event is also asu's most cultural event promoting understanding between different cultures. takes place every november.
+  long-description:
+  date: 1 November 2017
+  url:
+
+cc:
+  name: Career Conference
+  eli7: Helping international students create a pathway for their career and future in a one day conference.
+  short-description: our closing event for each academic year to celebrate the success of the outgoing year. also celebrating the partnerships of our partners.
+  long-description:
+  date: 9 February 2019
+  url:
+
+gbn:
+  name: Glo-Ball Night
+  eli7: End of semester celebration
+  short-description: a platform specifically tailored for international students to gain valuable information before the hiring season takes full blow.
+  long-description:
+  date: 12 April 2019
+  url:
+
+wc:
+  name: Welcome Carnival
+  eli7: Introducing new international Sun Devils what it is like to be an ASU student.
+  short-description: an introductory event targeted towards new international students to welcome them to the asu community.
+  long-description:
+  date: 8 August 2018
+  url:

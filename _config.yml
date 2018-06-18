@@ -2,12 +2,15 @@
 year: 2018
 name: ASU CIS
 title: CIS Home
-description: Awesome description
 url: https://asucis.com
 baseurl: ""
 email: international.students@asu.edu
 cover: 
-logo: assets/images/favicon.png
+icon: assets/images/favicon.png
+logo: assets/images/logo.png
+description: Coalition of International Students is an organization dedicated towards helping international students on campus.
+long-description: Coalition of International Students or CIS is one of the 7 identity/cultural based coalitions at Arizona State University that forms the Council of Coalitions. Within CIS is 19 partner organizations registered within Arizona State University as members of cultural, identity-based and/or diversity based student organizations.
+mission: CIS is a student led organization that acts as a bridge to reflect the needs of international students to university administration. We aim to enhance international student experience, promote cultural diversity and inclusivity in ASU through events and service.
 
 # Build settings
 markdown: redcarpet
