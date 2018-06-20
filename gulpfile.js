@@ -89,7 +89,7 @@ gulp.task('htmlmin', function () {
 });
 
 gulp.task('imagemin', function(){
-    return gulp.src('assets/images/pre/*')
+    return gulp.src('assets/images/pre/**')
         .pipe(imagemin({
             interlaced: true,
             progressive: true,

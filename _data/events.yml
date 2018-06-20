@@ -2,7 +2,7 @@ in:
   name: International Night
   eli7: Our flagship event of the Fall semester to highlight and celebrate international students on campus.
   short-description: our biggest event is also asu's most cultural event promoting understanding between different cultures. takes place every november.
-  long-description:
+  long-description: International Night is the biggest Our annual celebration for the success of the academic year and we invite all our partner organizations to participate to award them for their partnership throughout the academic year. This event also serves as a platform to introduce the new executive board for the forthcoming academic year.
   date: 1 November 2017
   url:
 
@@ -10,7 +10,7 @@ cc:
   name: Career Conference
   eli7: Helping international students create a pathway for their career and future in a one day conference.
   short-description: our closing event for each academic year to celebrate the success of the outgoing year. also celebrating the partnerships of our partners.
-  long-description:
+  long-description: This event is to help students get prepared for career fairs. The event comprises of resume review sessions, employer panel, alumni panel and various other sessions to prepare oneself for his/her career fair.
   date: 9 February 2019
   url:
 
@@ -18,7 +18,7 @@ gbn:
   name: Glo-Ball Night
   eli7: End of semester celebration
   short-description: a platform specifically tailored for international students to gain valuable information before the hiring season takes full blow.
-  long-description:
+  long-description: Our annual celebration for the success of the academic year and we invite all our partner organizations to participate to award them for their partnership throughout the academic year. This event also serves as a platform to introduce the new executive board for the forthcoming academic year.
   date: 12 April 2019
   url:
 
@@ -26,6 +26,6 @@ wc:
   name: Welcome Carnival
   eli7: Introducing new international Sun Devils what it is like to be an ASU student.
   short-description: an introductory event targeted towards new international students to welcome them to the asu community.
-  long-description:
+  long-description: Introducing new international students what it is to be a fellow Sun Devil at Arizona State University. This free event is open to all students so that new students can mingle around with current students and form a friendship through food, dance and interactive activites.
   date: 8 August 2018
   url:

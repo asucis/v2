@@ -1,11 +1,11 @@
 header.abouthead {
     position: relative;
-    background-color: #343a40;
+    background-color: red;
     background: url("../images/cis-glo-ball-night-0007.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover !important;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }

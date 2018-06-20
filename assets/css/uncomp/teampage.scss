@@ -5,7 +5,7 @@ header.executivehead {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover !important;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
@@ -20,6 +20,19 @@ header.memberhead {
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
+}
+
+.name-box h5 {
+    text-transform: uppercase;
+    padding-top: 0.38em;
+    color: #111;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+}
+
+.executive-social a {
+    padding-right: 0.5em;
 }
 
 .executive-social a:link {
@@ -64,14 +77,4 @@ header.memberhead {
     color: #111;
     font-weight: 700;
     font-size: 45px;
-}
-
-// remove this duplicate class !!!!
-.name-box h5 {
-    text-transform: uppercase;
-    padding-top: 0.38em;
-    color: #111;
-    font-weight: 700;
-    font-size: 28px;
-    letter-spacing: 1.5px;
 }
