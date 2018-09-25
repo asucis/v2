@@ -1,14 +1,15 @@
 {
-  "name": "www.dickwyn.xyz",
-  "version": "0.0.0",
-  "description": "dickwyn's website",
+  "name": "ASUCIS V2",
+  "version": "2.0.0",
+  "description": "ASU CIS website",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp default"
   },
   "author": "Dick Wyn Yong",
-  "license": "ISC",
-  "devDependencies": {
+  "license": "MIT",
+  "dependencies": {
     "browser-sync": "^2.24.4",
     "gh-pages": "^1.1.0",
     "gift": "^0.10.2",

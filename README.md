@@ -30,7 +30,7 @@ This project is built with:
 3. Browsersync can be accessed through `localhost:3000`
 
 **Production Mode**
-1. `$ gulp deploy
+1. `$ gulp deploy`
 
 ## Folder Structure
 
